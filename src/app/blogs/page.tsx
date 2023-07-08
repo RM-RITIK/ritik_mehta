@@ -29,11 +29,11 @@ const Blogs: React.FC = ({}) => {
             <div className='container px-5 py-24 mx-auto'>
                 <div className='flex flex-wrap -m-4'>
                     {blogs.map((blog:any, index:number) => (
-                        <div className="p-4 md:w-1/3">
+                        <div key={index} className="p-4 md:w-1/3">
                             <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                             <h2 className="tracking-widest text-xs title-font font-medium text-gray-600 mb-1">
                                 {blog.categories?.map((category: any, index: number) => (
-                                    <span>
+                                    <span key={index}>
                                         {category} &nbsp;
                                     </span>
                                 ))}

@@ -59,18 +59,7 @@ const Experience: React.FC = ({}) => {
                 <div className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                     <ul>
                         <li>Created a website for MBA And Beyond to gather data from users. It also served as a platform for counselors and users to <br /> interact with each other. The website improved efficiency of company by a minimum of 300%.</li>
-                        <li>Integrated Mailgun with company's website to send automated emails to customers about account activity, increasing <br /> customer engagement by 10%.</li>
-                    </ul>
-                </div>
-            </li>
-            <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2021 - Aug 2021</time>
-                <h3 className="text-lg font-semibold text-white-900">Software Development Engineering Intern, MBA And Beyond, Remote</h3>
-                <div className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                    <ul>
-                        <li>Created a website for MBA And Beyond to gather data from users. It also served as a platform for counselors and users to <br /> interact with each other. The website improved efficiency of company by a minimum of 300%.</li>
-                        <li>Integrated Mailgun with company's website to send automated emails to customers about account activity, increasing <br /> customer engagement by 10%.</li>
+                        <li>Integrated Mailgun with company&apos;s website to send automated emails to customers about account activity, increasing <br /> customer engagement by 10%.</li>
                     </ul>
                 </div>
             </li>
